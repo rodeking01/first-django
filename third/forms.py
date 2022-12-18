@@ -13,7 +13,7 @@ REVIEW_POINT_CHOICES = (
 )
 class ReviewForm(ModelForm):
     class Meta:
-        modeal = Review
+        model = Review
         fields = ['point', 'comment', 'restaurant']
         labels = {
             'point': _('평점'),
